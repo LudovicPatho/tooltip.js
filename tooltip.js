@@ -1,3 +1,10 @@
+/**
+ * Class for tooltip.
+ * Author : Ludovic Patho
+ * @class      Tooltip ()
+ * Version : 1.0
+ */
+
 class Tooltip {
   /**
    * Applies bubble info system on elements
@@ -14,6 +21,10 @@ class Tooltip {
    */
   constructor (element, position) {
     this.element = element;
+    /**
+     * If data-tooltip then the title tag is not taken into account
+     * @type       {HTMLelement} tooltiptarget
+     */
     let tooltipTarget = element.getAttribute('data-tooltip');
     if (tooltipTarget){
       this.title =  document.querySelector(tooltipTarget).innerHTML;
@@ -59,6 +70,9 @@ class Tooltip {
       break;
 
     }
+    /**
+     *  If the dimensions of the tooltip come out of the window.
+     */
     if (top <= 20){ top = 20;}
     if (left <= 20){ left = 20;}
     if (left >=  window.innerWidth - width){ left = window.innerWidth - width;}
@@ -101,7 +115,4 @@ class Tooltip {
 } // End of Class Tooltip
 
 
-Tooltip.wrap('.item1', 'right');
-Tooltip.wrap('.item2', 'bottom');
-Tooltip.wrap('.item3', 'left');
-Tooltip.wrap('.item4', 'top');
+
