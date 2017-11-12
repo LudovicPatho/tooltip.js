@@ -4,11 +4,11 @@ Demo visible :  https://ludovicpatho.github.io/tooltip.js/
 
 ## Comment Utiliser Tooltip.js ? 
 
-| Tooltip.wrap(element, position)                  |
-| ------------- | -------------   | ---------      |
-| Colonne       |     Colonne     |      Colonne   |
-| Alignée à     |      Alignée au |     Alignée à  |
-| Gauche        |      Centre     |      Droite    |
+| Option      |     Titre 2     |   
+| ------------- | -------------   | 
+| Colonne       |     Colonne     | 
+| Alignée à     |      Alignée au |   
+| Gauche        |      Centre     |    
 
 ## Chargement du fichier 
 Téléchargez le fichier ![fichier](https://github.com/LudovicPatho/tooltip.js/blob/master/tooltip.zip) et placez le juste avant la balise body.
