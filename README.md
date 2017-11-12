@@ -4,6 +4,12 @@ Demo visible :  https://ludovicpatho.github.io/tooltip.js/
 
 ## Comment Utiliser Tooltip.js ? 
 
+| Titre 1       |     Titre 2     |   Titre 3      |
+| ------------- | -------------   | ---------      |
+| Colonne       |     Colonne     |      Colonne   |
+| Alignée à     |      Alignée au |     Alignée à  |
+| Gauche        |      Centre     |      Droite    |
+
 ## Chargement du fichier 
 Téléchargez le fichier ![fichier](https://github.com/LudovicPatho/tooltip.js/blob/master/tooltip.zip) et placez le juste avant la balise body.
 ````html
@@ -17,11 +23,6 @@ La class tooltip s'initialise en lancant la fonction Tooltip.wrap();
 Tooltip.wrap(element, position);
 ````
 
-| Header 1      |     2 header    |   header 3 |
-| ------------- |: -------------: | ---------: |
-| 1 Online      |        1        |      value |
-| Line 2        |        2        |      value |
-| 3 Online      |        3        |      value |
 
 
 
