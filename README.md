@@ -4,6 +4,10 @@ Demo visible :  https://ludovicpatho.github.io/tooltip.js/
 
 ## Comment Utiliser Tooltip.js ? 
 
+```
+Tooltip.wrap(element, position);
+```
+
 | option       |     type     |   description      |
 | ------------- | -------------   | ---------      |
 | element       |     string      |      Il s'agit du sélécteur css à qui on attribue le tooltip. Tous les sélecteurs css sont valable   |
@@ -19,8 +23,8 @@ Téléchargez le fichier ![fichier](https://github.com/LudovicPatho/tooltip.js/b
 
 La class tooltip s'initialise en lancant la fonction Tooltip.wrap();
 
-```
-Tooltip.wrap(element, position);
+```javascript
+ Tooltip.wrap('.item1', 'right')
 ```
 
 
