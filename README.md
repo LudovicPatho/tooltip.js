@@ -41,7 +41,8 @@ Vous pouvez aussi injecter du html dans le tooltip :
 La class tooltip s'initialise en lancant la fonction Tooltip.wrap();
 
 ```javascript
- Tooltip.wrap('.item1', 'right')
+ Tooltip.wrap('.item1', 'right'):
+  Tooltip.wrap('.item4', 'top')
 ```
 
 
