@@ -1,0 +1,93 @@
+:root {
+  --bgColor : rgba(0,0,0,0.8);
+  --textColor : #fff;
+}
+
+.tool-tip {
+  position: absolute;
+  padding : 3px 10px;
+  font-size: 0.815em;
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+  opacity: 0;
+  border-radius : 5px;
+  max-width: 400px;
+  pointer-events: none;
+}
+
+.tool-tip.top {
+  transform: translateY(-10px);
+  transition: all 0.3s ease-in-out;
+  margin-top: -15px;
+}
+
+.tool-tip.top::after {
+  content : '';
+  position : absolute;
+  top : 100%;
+  left : calc(50% - 6px);
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid rgba(0,0,0,0.8);
+}
+
+.tool-tip.left {
+  transform: translateX(-10px);
+  transition: all 0.3s ease-in-out;
+  margin-left: -15px;
+}
+
+.tool-tip.left::after {
+  content : '';
+  position : absolute;
+  top : calc(50% - 6px);
+  left : 100%;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 6px solid rgba(0,0,0,0.8);
+}
+
+
+.tool-tip.right {
+  transform: translateX(10px);
+  transition: all 0.3s ease-in-out;
+  margin-left: 15px;
+}
+
+.tool-tip.right::after {
+  content : '';
+  position : absolute;
+  top : calc(50% - 6px);
+  left : -6px ;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-right: 6px solid rgba(0,0,0,0.8);
+}
+
+.tool-tip.bottom {
+  transform: translateY(10px);
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+}
+
+.tool-tip.bottom::after {
+  content : '';
+  position : absolute;
+  top : -6px;
+  left : calc(50% - 6px);
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid rgba(0,0,0,0.8);
+}
+
+
+.tool-tip.visible {
+  opacity: 1;
+  transform: translateY(0);
+  transform: translateX(0);
+}
+
+.tool-tip__container {
+  display : none;
+}
+
