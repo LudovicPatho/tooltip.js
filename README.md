@@ -29,7 +29,7 @@ Vous pouvez aussi injecter du html dans le tooltip :
 
 <div id="tool-tip__container" class="tool-tip__container">
   <h2>Ceci est une tool tip en html</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis aperiam commodi magnam explicabo illum officiis labore reiciendis veritatis quisquam ipsam minima maiores perferendis, sequi eum accusantium fugiat sit temporibus facere.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit....</p>
   <img src="http://lorempicsum.com/futurama/380/200/2" alt="" title="Ceci est un tooltip">
 </div>
 ```
