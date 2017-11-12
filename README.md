@@ -46,8 +46,8 @@ Dans ce cas, vous devez mettre l'attribut id & l'attribut ```data-tooltip``` du 
 La class tooltip s'initialise en lancant la fonction Tooltip.wrap() dans votre fichier javascript;
 
 ```javascript
- Tooltip.wrap('.item1', 'right'):
- Tooltip.wrap('.item4', 'top')
+ Tooltip.wrap('.item1', 'right');
+ Tooltip.wrap('.item4', 'top');
 ```
 
 
