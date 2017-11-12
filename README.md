@@ -23,6 +23,18 @@ Donnez une class à votre élément et remplissez le avc la balise title :
 ```html
 <img class="item1" src="http://via.placeholder.com/350x150" alt="" title="Ceci un tool tip">
 ```
+Vous pouvez aussi injecter du html dans le tooltip :
+```html
+<img class="item4" src="http://via.placeholder.com/350x150" alt="" data-tooltip="#tool-tip__container">
+
+<div id="tool-tip__container" class="tool-tip__container">
+  <h2>Ceci est une tool tip en html</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis aperiam commodi magnam explicabo illum officiis labore reiciendis veritatis quisquam ipsam minima maiores perferendis, sequi eum accusantium fugiat sit temporibus facere.</p>
+  <img src="http://lorempicsum.com/futurama/380/200/2" alt="" title="Ceci est un tooltip">
+</div>
+```
+
+
 
 
 
