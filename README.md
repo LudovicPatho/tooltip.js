@@ -19,6 +19,11 @@ Téléchargez le fichier ![fichier](https://github.com/LudovicPatho/tooltip.js/b
 ```html
 <script src="tooltip.js"></script>
 ```
+Donnez une class à votre élément et remplissez le avc la balise title :
+```html
+<img class="item1" src="http://via.placeholder.com/350x150" alt="" title="Ceci un tool tip">
+```
+
 
 
 La class tooltip s'initialise en lancant la fonction Tooltip.wrap();
