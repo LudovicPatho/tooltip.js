@@ -19,6 +19,10 @@ Téléchargez le fichier ![fichier](https://github.com/LudovicPatho/tooltip.js/b
 ```html
 <script src="tooltip.js"></script>
 ```
+Vous pouvez aussi charger le css 
+```html
+ <link rel="stylesheet" href="assets/css/toolptip.css">
+``` 
 Donnez une class à votre élément et remplissez le avc la balise title :
 ```html
 <img class="item1" src="http://via.placeholder.com/350x150" alt="" title="Ceci un tool tip">
@@ -33,7 +37,7 @@ Vous pouvez aussi injecter du html dans le tooltip :
   <img src="http://lorempicsum.com/futurama/380/200/2" alt="" title="Ceci est un tooltip">
 </div>
 ```
-
+Vous devez mettre l'attribut id & l'attribut ```data-tooltip``` du conteneur que vous souhaitez injecter dans le tooltip.
 
 
 
