@@ -17,4 +17,11 @@ La class tooltip s'initialise en lancant la fonction Tooltip.wrap();
 Tooltip.wrap('.item1', 'right');
 ````
 
+| Tooltip.wrap( element, position)|
+| ------------- |: -------------: | ---------: |
+|element |         |      HTLelement |
+| Line 2        |        2        |      value |
+| 3 Online      |        3        |      value |
+
+
 
