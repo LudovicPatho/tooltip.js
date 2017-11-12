@@ -42,7 +42,7 @@ La class tooltip s'initialise en lancant la fonction Tooltip.wrap();
 
 ```javascript
  Tooltip.wrap('.item1', 'right'):
-  Tooltip.wrap('.item4', 'top')
+ Tooltip.wrap('.item4', 'top')
 ```
 
 
