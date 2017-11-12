@@ -14,10 +14,9 @@ Téléchargez le fichier ![fichier](https://github.com/LudovicPatho/tooltip.js/b
 La class tooltip s'initialise en lancant la fonction Tooltip.wrap();
 
 ````js
-Tooltip.wrap('.item1', 'right');
+Tooltip.wrap(element, position);
 ````
 
-| Tooltip.wrap( element, position)|
 | ------------- |: -------------: | ---------: |
 |element |         |      HTLelement |
 | Line 2        |        2        |      value |
