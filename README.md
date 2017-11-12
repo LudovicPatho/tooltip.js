@@ -4,7 +4,7 @@ Demo visible :  https://ludovicpatho.github.io/tooltip.js/
 
 ## Comment Utiliser Tooltip.js ? 
 
-| Titre 1       |     Titre 2     |   Titre 3      |
+| Tooltip.wrap(element, position)                  |
 | ------------- | -------------   | ---------      |
 | Colonne       |     Colonne     |      Colonne   |
 | Alignée à     |      Alignée au |     Alignée à  |
