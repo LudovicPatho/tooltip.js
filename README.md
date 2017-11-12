@@ -14,7 +14,7 @@ Tooltip.wrap(element, position);
 | position      |     string      |      Il s'agit de la postion du tool tip. 4 choix sont possibles. 'top', 'left', 'right', 'bottom' |
 
 
-## Chargement du fichier 
+### Exemple
 Téléchargez le fichier ![fichier](https://github.com/LudovicPatho/tooltip.js/blob/master/tooltip.zip) et placez le juste avant la balise body.
 ```html
 <script src="tooltip.js"></script>
