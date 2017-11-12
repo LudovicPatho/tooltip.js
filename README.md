@@ -4,11 +4,11 @@ Demo visible :  https://ludovicpatho.github.io/tooltip.js/
 
 ## Comment Utiliser Tooltip.js ? 
 
-| Option      |     Titre 2     |   
-| ------------- | -------------   | 
-| Colonne       |     Colonne     | 
-| Alignée à     |      Alignée au |   
-| Gauche        |      Centre     |    
+| option       |     type     |   description      |
+| ------------- | -------------   | ---------      |
+| element       |     string      |      Il s'agit du sélécteur css à qui on attribue le tooltip. Tous les sélecteurs css sont valable   |
+| position      |     string      |      Il s'agit de la postion du tool tip. 4 choix sont possibles. 'top', 'left', 'right', 'bottom' |
+
 
 ## Chargement du fichier 
 Téléchargez le fichier ![fichier](https://github.com/LudovicPatho/tooltip.js/blob/master/tooltip.zip) et placez le juste avant la balise body.
