@@ -33,14 +33,16 @@ Donnez une class à votre élément et remplissez le avc la balise title :
 Vous pouvez aussi injecter du html dans le tooltip :
 ```html
 <img class="item4" src="http://via.placeholder.com/350x150" alt="" data-tooltip="#tool-tip__container">
-
+```
+Dans ce cas, vous devez mettre l'attribut id au conteneur & mettre l'attribut ```data-tooltip``` avec l'id conteneur que vous souhaitez injecter dans le tooltip.
+```html
 <div id="tool-tip__container" class="tool-tip__container">
   <h2>Ceci est une tool tip en html</h2>
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit....</p>
   <img src="http://lorempicsum.com/futurama/380/200/2" alt="" title="Ceci est un tooltip">
 </div>
 ```
-Dans ce cas, vous devez mettre l'attribut id & l'attribut ```data-tooltip``` du conteneur que vous souhaitez injecter dans le tooltip.
+
 
 
 La class tooltip s'initialise en lancant la fonction Tooltip.wrap() dans votre fichier javascript;
