@@ -15,7 +15,7 @@ Tooltip.wrap(element, position);
 
 
 ### Exemple
-Téléchargez le fichier ![fichier](https://github.com/LudovicPatho/tooltip.js/blob/master/tooltip.zip) et placez le juste avant la balise body.
+Téléchargez le fichier ![fichier](https://github.com/LudovicPatho/tooltip.js/blob/master/tooltip.zip) et placez le juste avant la balise de fermeture body.
 ```html
 <script src="tooltip.js"></script>
 ```
