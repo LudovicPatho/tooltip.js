@@ -27,9 +27,9 @@ class Tooltip {
         */
         let tooltipTarget = element.getAttribute('data-tooltip');
         if (tooltipTarget){
-        this.title =  document.querySelector(tooltipTarget).innerHTML;
+            this.title =  document.querySelector(tooltipTarget).innerHTML;
         } else {
-        this.title = element.getAttribute('title');
+            this.title = element.getAttribute('title');
         }
         element.removeAttribute('title');
         this.tooltip = null;
